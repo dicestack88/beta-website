@@ -1,22 +1,17 @@
-# Dicestack88 Darklands
+# Dicestack88 Darklands — Beta
 
-Welcome to my personal portfolio and projects hub. This is where I showcase my clients, games, and more.
+The beta environment for the next version of [dicestack88.github.io](https://dicestack88.github.io/). This repository is used to preview design changes before they are considered for the main site.
 
-## 📚 Sections
+## Preview
 
-- **Socials** - Find me on Reddit, Instagram, X, and YouTube
-- **Clients** - Eaglercraft launchers and related projects
-- **About Me** - Learn more about who I am
-- **Resource Packs** - Custom resource packs and assets
+GitHub Pages is deployed from `main` by the workflow in `.github/workflows/pages.yml`. The homepage redesign is implemented in `index.html` and `beta-home.css`; the existing project pages and their assets remain in place.
 
-## 🎮 About
+## Sections
 
-This is a gaming-focused portfolio site featuring my projects, social links, and various gaming content. Built with HTML, CSS, and a focus on dark mode aesthetics.
+- **Clients & games** — Eaglercraft clients, launchers, and browser games
+- **Videos** — creator uploads and shorts
+- **Resource packs** — custom Minecraft textures
+- **Socials** — community and platform links
+- **About** — learn about Dicestack88
 
-## 📧 Contact
-
-Feel free to reach out through any of the social links on the site!
-
----
-
-© 2026 Dicestack88
+Built with HTML and CSS. © 2026 Dicestack88.
