@@ -1,86 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Socials - Dicestack88 Darklands</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="liquid-glass.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects — Dicestack88</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="inner-page">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand-wrap" href="index.html" aria-label="Dicestack88 home">
+          <span class="brand-mark">D88</span>
+          <span class="brand-name">Dicestack88</span>
+        </a>
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="logo">Dicestack88 Darklands</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="clients.html">Clients</a>
-      <a href="about.html">About</a>
-      <a href="resourcepacks.html">Resource Packs</a>
-      <a href="geometrydash.html">Geometry Dash</a>
-    </nav>
-    <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle dark/light mode">🌙</button>
-  </header>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link active" href="clients.html">Projects</a>
+          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="socials.html">Socials</a>
+        </nav>
 
-  <!-- Animated Background -->
-  <div class="animated-bg">
-    <div class="gradient-orb orb-1"></div>
-    <div class="gradient-orb orb-2"></div>
-    <div class="gradient-orb orb-3"></div>
-  </div>
-
-  <!-- Page Content -->
-  <section class="page">
-    <h1>Socials</h1>
-    <p>All my links and platforms.</p>
-
-    <div class="wide-list">
-
-      <a class="wide-card youtube" href="https://dicestack88.github.io/dicestack88youtube.html">
-        <div class="wide-card-text">
-          <h3>YouTube</h3>
-          <p>Main channel and videos</p>
+        <div class="header-actions">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">☀️</button>
+          <a class="pill-button" href="browser.html">Explore now</a>
         </div>
-      </a>
+      </header>
 
-      <a class="wide-card discord" href="https://discord.gg/Exha6Jz7Uk" target="_blank">
-        <div class="wide-card-text">
-          <h3>Discord</h3>
-          <p>Join the community</p>
-        </div>
-      </a>
+      <main class="page-main">
+        <section class="page-intro">
+          <p class="eyebrow"><span class="live-dot"></span> Projects</p>
+          <h1>Pick a browser build and jump in.</h1>
+          <p>
+            A curated set of Eaglercraft clients, browser projects, and community tools designed to feel accessible and easy to explore.
+          </p>
+        </section>
 
-      <a class="wide-card reddit" href="https://reddit.com/r/dicestack88" target="_blank">
-        <div class="wide-card-text">
-          <h3>Reddit</h3>
-          <p>Funny stuff</p>
-        </div>
-      </a>
+        <section class="page-panel">
+          <div class="project-grid">
+            <a class="project-card featured" href="specialclients.html">
+              <h3>Newer version clients</h3>
+              <p>Special client builds for versions like 26.2, 1.21.x, and newer browser-ready options.</p>
+              <span class="arrow">→</span>
+            </a>
 
-      <a class="wide-card instagram" href="https://instagram.com/dicestack88yt" target="_blank">
-        <div class="wide-card-text">
-          <h3>Instagram</h3>
-          <p>Clips and posts</p>
-        </div>
-      </a>
+            <a class="project-card primary" href="ChromiumClient/ChromiumLauncher.html">
+              <h3>Chromium Client</h3>
+              <p>Mod-friendly browser client with a smoother experience and stronger project flow.</p>
+              <span class="arrow">→</span>
+            </a>
 
-      <a class="wide-card twitter" href="https://x.com/dicestack88" target="_blank">
-        <div class="wide-card-text">
-          <h3>X (Twitter)</h3>
-          <p>News and thoughts</p>
-        </div>
-      </a>
+            <a class="project-card secondary" href="files/eaglercraft-26.2-r46-music.html">
+              <h3>Donut SMP Access</h3>
+              <p>Jump into browser-playable server experiences directly from the site.</p>
+              <span class="arrow">→</span>
+            </a>
 
+            <a class="project-card highlight" href="otherclients.html">
+              <h3>Other clients</h3>
+              <p>Low-lag alternatives, experimental builds, and extra browser picks for different needs.</p>
+              <span class="arrow">→</span>
+            </a>
+
+            <a class="project-card primary" href="resourcepacks.html">
+              <h3>Resource packs</h3>
+              <p>Custom themes, textures, and visual polish options for a more refined style.</p>
+              <span class="arrow">→</span>
+            </a>
+
+            <a class="project-card featured" href="geometrydash.html">
+              <h3>Geometry Dash</h3>
+              <p>Web-based playable builds and browser-run experiences for a wider game selection.</p>
+              <span class="arrow">→</span>
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span class="footer-brand">D88</span>
+        <p>Made for fun. © 2026 Dicestack88</p>
+        <a href="socials.html">Say hi</a>
+      </footer>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2026 Dicestack88</p>
-  </footer>
-
-  <script src="theme.js"></script>
-  <script src="liquid-glass.js"></script>
-</body>
+    <script src="theme.js"></script>
+  </body>
 </html>

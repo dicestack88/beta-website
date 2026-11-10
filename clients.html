@@ -1,155 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clients - Dicestack88 Darklands</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="liquid-glass.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Orbitron:wght@500&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About — Dicestack88</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="inner-page">
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand-wrap" href="index.html" aria-label="Dicestack88 home">
+          <span class="brand-mark">D88</span>
+          <span class="brand-name">Dicestack88</span>
+        </a>
 
-  <!-- Navbar -->
-  <header class="navbar">
-    <div class="logo">Dicestack88 Darklands</div>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="socials.html">Socials</a>
-      <a href="about.html">About</a>
-      <a href="resourcepacks.html">Resource Packs</a>
-      <a href="geometrydash.html">Geometry Dash</a>
-    </nav>
-    <button id="themeToggle" class="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle dark/light mode">🌙</button>
-  </header>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="clients.html">Projects</a>
+          <a class="nav-link active" href="about.html">About</a>
+          <a class="nav-link" href="socials.html">Socials</a>
+        </nav>
 
-  <!-- Animated Background -->
-  <div class="animated-bg">
-    <div class="gradient-orb orb-1"></div>
-    <div class="gradient-orb orb-2"></div>
-    <div class="gradient-orb orb-3"></div>
-  </div>
-
-  <!-- Page Content -->
-  <section class="page">
-    <h1>Clients</h1>
-    <p>Eaglercraft launchers and clients. (GO TO SPECIAL CLIENTS FOR 26.2)</p>
-
-    <div class="client-list">
-
-      <a href="https://dicestack88.github.io/specialclients.html" class="client-card resent">
-        <div>
-          <h2>Newer version clients (26.3, 26.2, 1.21.11, 1.20.6, 1.16, 1.14)</h2>
-          <p>SPECIAL CLIENTS (MAYBE BUGGY) THAT RUN ON NEWER VERSIONS. PROCEED WITH CAUTION</p>
+        <div class="header-actions">
+          <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">☀️</button>
+          <a class="pill-button" href="clients.html">Explore now</a>
         </div>
-        <span class="launch">→</span>
-      </a>
+      </header>
 
-      <a href="https://dicestack88.github.io/ChromiumClient/ChromiumLauncher.html" class="client-card resent">
-        <div>
-          <h2>Eaglercraft Mod Loader</h2>
-          <p>Chromium Client 26.2, supports many fabric mods (RECOMMENDED)</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
+      <main class="page-main">
+        <section class="page-intro">
+          <p class="eyebrow"><span class="live-dot"></span> About</p>
+          <h1>Built for curiosity, community, and play.</h1>
+          <p>
+            I’m Dicestack88 — a creator and builder focused on browser gaming experiences, custom tools, and fun community-first projects.
+          </p>
+        </section>
 
+        <section class="page-panel">
+          <div class="info-grid">
+            <article class="info-card">
+              <h3>Who I am</h3>
+              <p>
+                I build projects that sit somewhere between gaming, experimentation, and digital creative culture. The goal is always to make technology feel more fun and more accessible.
+              </p>
+            </article>
 
+            <article class="info-card">
+              <h3>What I do</h3>
+              <p>
+                I develop Eaglercraft clients, experiment with browser gaming, post content, and keep exploring what can be made to feel smooth, useful, and exciting.
+              </p>
+            </article>
 
-      <a href="https://dicestack88.github.io/files/eaglercraft-26.2-r46-music.html" class="client-card eb">
-        <div>
-          <h2>YOU CAN ACTUALLY JOIN DONUT SMP ON YOUR BROWSER WHAT</h2>
-          <p>JOIN RIGHT NOW</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
+            <article class="info-card">
+              <h3>My focus</h3>
+              <p>
+                Good UX matters. If something feels awkward, confusing, or bloated, it gets simplified. Great projects are usually the ones that feel easy to use from the very first click.
+              </p>
+            </article>
 
-      <a href="https://dicestack88.github.io/EBClient" class="client-card eb">
-        <div>
-          <h2>EB Client (1.8)</h2>
-          <p>Best low lag 1.8 client</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
+            <article class="info-card">
+              <h3>Future goals</h3>
+              <p>
+                Continue building sharper experiences, better community tools, and projects that blend creativity, reliability, and gameplay in a way that is genuinely enjoyable to use.
+              </p>
+            </article>
+          </div>
+        </section>
+      </main>
 
-      <a href="https://dicestack88.github.io/files/Reflex-0.0.2-1.8_WASM-GC_Offline_Download.html" class="client-card modern">
-        <div>
-          <h2>Reflex Client (1.8)</h2>
-          <p>Top Alternative to EB Client, Built in with a fully working Replay Mod</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
-
-
-
-
-      <a href="https://dicestack88.github.io/modernclient" class="client-card modern">
-        <div>
-          <h2>Modern Client (1.12)</h2>
-          <p>Best 1.12 PvP client, very low lag</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
-
-      <a href="https://dicestack88.github.io/files/Stratus_U2.html" class="client-card modern">
-        <div>
-          <h2>Stratus Client (1.12)</h2>
-          <p>Mid Client that I found (kinda laggy)</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
-
-      <a href="https://dicestack88.github.io/Tuffclient" class="client-card tuff">
-        <div>
-          <h2>Tuff Client</h2>
-          <p>Tons of fun mods to pla around with</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
-
-      <a href="https://dicestack88.github.io/Resentclient" class="client-card resent">
-        <div>
-          <h2>Resent Client</h2>
-          <p>Best for wispcraft and playing on hypixel/minemen/other java servers</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
-
-
-      <a href="https://dicestack88.github.io/AeroClient" class="client-card eb">
-        <div>
-          <h2>Aero Client</h2>
-          <p>Decent PvP client i found on github (uses 1.12 u3) Like Pixel Client</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
-
-      <a href="https://dicestack88.github.io/otherclients" class="client-card eb">
-        <div>
-          <h2>Other Clients</h2>
-          <p>Lots of other eaglercraft clients that i found on the internet</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
-
-      <a href="https://dicestack88.github.io/files/launcher.html" class="client-card launcher">
-        <div>
-          <h2>Custom Launcher</h2>
-          <p>Multi-version support and configuration</p>
-        </div>
-        <span class="launch">→</span>
-      </a>
-
-      
-
+      <footer class="site-footer">
+        <span class="footer-brand">D88</span>
+        <p>Made for fun. © 2026 Dicestack88</p>
+        <a href="socials.html">Say hi</a>
+      </footer>
     </div>
-  </section>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>© 2026 Dicestack88</p>
-  </footer>
-
-  <script src="theme.js"></script>
-  <script src="liquid-glass.js"></script>
-</body>
+    <script src="theme.js"></script>
+  </body>
 </html>
